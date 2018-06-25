@@ -1,0 +1,14 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:tunnel-agent:20170305':
+    - gcloud > google-auto-auth > google-auth-library > request > tunnel-agent:
+        patched: '2018-06-25T22:37:41.880Z'
+    - gcloud > gce-images > google-auto-auth > google-auth-library > request > tunnel-agent:
+        patched: '2018-06-25T22:37:41.880Z'
+    - gcloud > retry-request > request > tunnel-agent:
+        patched: '2018-06-25T22:37:41.880Z'
+    - '@google/cloud-trace > @google/cloud-diagnostics-common > google-auth-library-nodejs > request > tunnel-agent':
+        patched: '2018-06-25T22:37:41.880Z'
