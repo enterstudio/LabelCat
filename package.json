@@ -38,7 +38,7 @@
     "dependable": "0.2.5",
     "express": "4.13.3",
     "express-winston": "0.4.1",
-    "gcloud": "0.23.0",
+    "gcloud": "0.36.0",
     "github": "0.2.4",
     "googleapis": "2.1.5",
     "node-uuid": "1.4.3",
