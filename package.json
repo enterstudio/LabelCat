@@ -27,7 +27,9 @@
     "test": "npm run unit && npm run integration",
     "cover": "npm run unit-cover && npm run integration-cover",
     "coveralls": "npm run cover && cat ./coverage/lcov.info | node_modules/coveralls/bin/coveralls.js",
-    "deploy": "gcloud app deploy app.yaml worker.yaml --version alpha-001 --promote"
+    "deploy": "gcloud app deploy app.yaml worker.yaml --version alpha-001 --promote",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "@google/cloud-trace": "0.2.0",
@@ -45,7 +47,8 @@
     "passport": "0.3.0",
     "passport-github": "1.0.0",
     "request": "2.64.0",
-    "winston": "1.1.0"
+    "winston": "1.1.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "chai": "3.3.0",
@@ -56,5 +59,6 @@
     "mocha": "2.3.3",
     "sinon": "1.17.1",
     "supertest": "1.1.0"
-  }
+  },
+  "snyk": true
 }
