@@ -1,0 +1,17 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - '@google/cloud-trace > @google/cloud-diagnostics-common > google-auth-library-nodejs > request > hawk > hoek':
+        patched: '2022-08-03T10:27:05.604Z'
+    - '@google/cloud-trace > @google/cloud-diagnostics-common > google-auth-library-nodejs > request > hawk > boom > hoek':
+        patched: '2022-08-03T10:27:05.604Z'
+    - '@google/cloud-trace > @google/cloud-diagnostics-common > google-auth-library-nodejs > request > hawk > sntp > hoek':
+        patched: '2022-08-03T10:27:05.604Z'
+    - '@google/cloud-trace > @google/cloud-diagnostics-common > google-auth-library-nodejs > request > hawk > cryptiles > boom > hoek':
+        patched: '2022-08-03T10:27:05.604Z'
+  'npm:tunnel-agent:20170305':
+    - '@google/cloud-trace > @google/cloud-diagnostics-common > google-auth-library-nodejs > request > tunnel-agent':
+        patched: '2022-08-03T10:27:05.604Z'
