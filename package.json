@@ -36,7 +36,7 @@
     "cookie-session": "1.2.0",
     "csurf": "1.8.3",
     "dependable": "0.2.5",
-    "express": "4.13.3",
+    "express": "4.19.2",
     "express-winston": "0.4.1",
     "gcloud": "0.23.0",
     "github": "0.2.4",
