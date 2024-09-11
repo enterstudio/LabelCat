@@ -32,11 +32,11 @@
   "dependencies": {
     "@google/cloud-trace": "0.2.0",
     "bluebird": "2.10.2",
-    "body-parser": "1.14.1",
+    "body-parser": "1.20.3",
     "cookie-session": "1.2.0",
     "csurf": "1.8.3",
     "dependable": "0.2.5",
-    "express": "4.13.3",
+    "express": "4.20.0",
     "express-winston": "0.4.1",
     "gcloud": "0.23.0",
     "github": "0.2.4",
